@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding: 0px    ;
+}
+body{
+    background-color: #CBD6CB;
+}
+.container{
+    width:1000px;
+    margin:auto;
+    font-family: Verdana, Geneva, sans-serif;
+
+}
+.midSection, .bottomSection{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.midMidLeft{
+    flex-basis: 400px;
+    text-align: center
+}
+.pWidth{
+
+    width: 154px;
+}
+ol{
+    list-style: none;
+}
+ol >li{
+    margin: 10px 0px;
+}
